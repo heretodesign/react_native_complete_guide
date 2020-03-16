@@ -5,6 +5,7 @@ import ComponentsScreen from './src/ComponentsScreen'
 import ListScreen from './src/screens/ListScreen'
 import CounterScreen from './src/screens/CounterScreen'
 import SquareScreen from './src/screens/SquareScreen'
+import BoxScreen from './src/screens/BoxScreen'
 import { StyleSheet, Text, View } from 'react-native';
 
 
@@ -17,6 +18,7 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Square: SquareScreen,
     Text: TextScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName: 'Home',
